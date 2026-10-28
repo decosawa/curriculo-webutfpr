@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f4f6f9; 
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+#resumo {
+    background-color: #ffffff;
+    padding: 20px;
+    border-left: 5px solid #2980b9;
+    margin-bottom: 20px;
+}
+
+.contatos {
+    list-style-type: none;
+    padding: 0;
+    font-style: italic; 
+}
+
+a[target="_blank"] {
+    color: #2980b9;
+    text-decoration: underline; 
+}
+
+
+a[target="_blank"]:hover {
+    color: #e74c3c;
+    text-decoration: none;
+}
+
+figure {
+    text-align: left;
+    margin-left: 0;
+}
+
+img {
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
